@@ -50,9 +50,6 @@ class UploadPDF extends React.Component {
             >
               Submit
             </Button>
-            <Button style={{ height: 42, width: 126, marginLeft: 12 }} type="default">
-              Back
-            </Button>
           </div>
         </div>
       </div>

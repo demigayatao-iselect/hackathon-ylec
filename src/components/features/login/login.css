@@ -4,14 +4,10 @@
   flex-direction: column;
 }
 
-.upload-bill {
+.login {
   display: flex;
   justify-content: center;
   margin: 32px;
-}
-
-.header {
-  display: flex;
 }
 
 .energy-background {

@@ -12,7 +12,7 @@ export const Navigation = ({ currentPage }) => (
         <Icon type="user" />
         <span>Yoga Legends Electricity Comparison</span>
       </Breadcrumb.Item>
-      <Breadcrumb.Item>{currentPage}</Breadcrumb.Item>
+      {currentPage && <Breadcrumb.Item>{currentPage}</Breadcrumb.Item>}
     </Breadcrumb>
   </div>
 );

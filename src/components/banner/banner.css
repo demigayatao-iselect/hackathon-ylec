@@ -9,3 +9,7 @@
 .ylec-logo {
   width: 194px;
 }
+
+.ylec-logo:hover {
+  cursor: pointer;
+}
