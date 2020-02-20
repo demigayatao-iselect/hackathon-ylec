@@ -1,0 +1,16 @@
+.ant-upload-hint {
+  padding: 0 20px;
+}
+
+.upload-dragger-container {
+  height: auto;
+}
+
+.upload-pdf-container {
+  margin: 126px 0;
+}
+
+.button-container {
+  padding: 12px 0;
+  display: flex;
+}

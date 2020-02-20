@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.recommendation {
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+  align-items: flex-start;
+}

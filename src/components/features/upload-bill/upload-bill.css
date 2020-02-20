@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.upload-bill {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+
+.header {
+  display: flex;
+}
+
+.energy-background {
+  height: 320px;
+}
+
+.image-block {
+  display: flex;
+  padding-left: 60px;
+  flex-direction: column;
+  justify-content: center;
+}
