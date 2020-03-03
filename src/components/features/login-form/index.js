@@ -19,7 +19,14 @@ class LoginForm extends React.Component {
     const { isLoggedIn } = this.state;
 
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'flex-start',
+          justifyContent: 'center'
+        }}
+      >
         <div style={{ marginTop: 11, display: 'flex', alignItems: 'baseline' }}>
           {!isLoggedIn ? (
             <>

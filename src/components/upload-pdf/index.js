@@ -37,8 +37,6 @@ class UploadPDF extends React.Component {
               Strictly prohibit from uploading company data or other band files
             </p>
 
-            <p className="ant-upload-hint">No photos or scan</p>
-
             <p className="ant-upload-hint">Maximum size 3MB</p>
           </Upload.Dragger>
 
