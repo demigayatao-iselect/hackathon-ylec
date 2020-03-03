@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Input } from 'antd';
 import { Button } from 'antd';
-import { FacebookLoginButton, GoogleLoginButton } from 'react-social-login-buttons';
+import { SocialIcon } from 'react-social-icons';
 class LoginForm extends React.Component {
   constructor(props) {
     super(props);
@@ -50,21 +50,21 @@ class LoginForm extends React.Component {
         </div>
         <div style={{ display: 'flex' }}>
           {!isLoggedIn && (
-            <span style={{ alignSelf: 'center' }}>
-              Don't have an account yet? sign up <a>here</a>
-            </span>
+            <>
+              <span style={{ alignSelf: 'center' }}>
+                Don't have an account yet? sign up <a>here</a>
+              </span>
+              <span style={{ alignSelf: 'center' }}>&nbsp;or sign in with:</span>
+              <SocialIcon
+                style={{ width: 30, height: 30, margin: 5 }}
+                url="https://facebook.com/jaketrent"
+              />
+              <SocialIcon
+                style={{ width: 30, height: 30, margin: '5px 5px 5px 0' }}
+                url="https://google.com/jaketrent"
+              />
+            </>
           )}
-
-          <FacebookLoginButton
-            text=""
-            style={{ width: '22px', height: '22px', padding: '0px 1px' }}
-            iconSize="20px"
-          />
-          <GoogleLoginButton
-            text=""
-            style={{ width: '22px', height: '22px', padding: '0px 1px' }}
-            iconSize="20px"
-          />
         </div>
       </div>
     );
